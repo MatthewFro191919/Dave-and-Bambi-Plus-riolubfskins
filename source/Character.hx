@@ -56,7 +56,7 @@ class Character extends FlxSprite
 			case 'bf':
 				frames = Paths.getSparrowAtlas('characters/BOYFRIEND', 'shared');
 				
-				animation.addByPrefix('idle', 'BF idle dance', 24, false);
+				animation.addByPrefix('idle', 'BF IDLE DANCE', 24, false);
 				animation.addByPrefix('singUP', 'BF NOTE UP0', 24, false);
 				animation.addByPrefix('singLEFT', 'BF NOTE LEFT0', 24, false);
 				animation.addByPrefix('singRIGHT', 'BF NOTE RIGHT0', 24, false);
@@ -79,13 +79,11 @@ class Character extends FlxSprite
 				skins.set('gfSkin', 'gf');
 				skins.set('3d', 'bf-3d');
 
-				barColor = FlxColor.fromRGB(255, 244, 67);
+				barColor = FlxColor.fromRGB(255, 149, 46);
 
 				playAnim('idle');
 
 				nativelyPlayable = true;
-
-				globalOffset = [10, 210];
 
 				flipX = true;
 			case 'bf-3d':
