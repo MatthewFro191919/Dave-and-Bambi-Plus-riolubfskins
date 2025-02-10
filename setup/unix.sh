@@ -24,4 +24,3 @@ haxelib install hxCodec 2.5.1
 haxelib install hscript
 haxelib git lime https://github.com/mcagabe19-stuff/lime
 echo Finished!
-pause
