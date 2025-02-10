@@ -1,9 +1,11 @@
-@echo off
-color 0a
+#!/bin/sh
+# SETUP FOR MAC AND LINUX SYSTEMS!!!
+# REMINDER THAT YOU NEED HAXE INSTALLED PRIOR TO USING THIS
+# https://haxe.org/download
 cd ..
-@echo on
-echo Installing dependencies...
-echo This might take a few moments depending on your internet speed.
+echo Makking the main haxelib and setuping folder in same time..
+mkdir ~/haxelib && haxelib setup ~/haxelib
+echo Installing dependencies...g on your internet speed.
 haxelib git hxcpp https://github.com/mcagabe19-stuff/hxcpp.git
 haxelib git lime https://github.com/mcagabe19-stuff/lime
 haxelib install openfl 9.2.2
@@ -21,6 +23,4 @@ haxelib install actuate
 haxelib install hxCodec 2.5.1
 haxelib install hscript
 haxelib git lime https://github.com/mcagabe19-stuff/lime
-haxelib git extension-androidtools https://github.com/MAJigsaw77/extension-androidtools --quiet --skip-dependencies
 echo Finished!
-pause

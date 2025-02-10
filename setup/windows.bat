@@ -21,6 +21,5 @@ haxelib install actuate
 haxelib install hxCodec 2.5.1
 haxelib install hscript
 haxelib git lime https://github.com/mcagabe19-stuff/lime
-haxelib git extension-androidtools https://github.com/MAJigsaw77/extension-androidtools --quiet --skip-dependencies
 echo Finished!
 pause
